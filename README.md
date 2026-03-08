@@ -1,2 +1,2 @@
 # CIN0005
-Listas e estudos
+Listas, justificativas e estudos.
