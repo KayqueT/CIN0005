@@ -1,0 +1,16 @@
+Questão 1 — Numerologia de Monalisa (lista1-1.c)
+
+Entrada: duas datas no formato dd/mm/aaaa (nascimento e atual)
+O que faz: calcula três índices numerológicos com fórmulas aritméticas simples e imprime uma mensagem para cada faixa de valor:
+d1, m1, a1; (Data de nascimento)
+d2, m2, a2; (Data atual)
+
+Amor -> ((d1+m1+a1+d2+m2+a2) * 7) % 101 = 5 faixas de mensagem
+Sorte -> (((d1+d2+m1+m2)*9) + |a1-a2|) % 101 = 5 faixas de mensagem
+Trabalho -> |( a1+a2) - (d1+d2+m1+m2)*8 | % 101 = 5 faixas de mensagem
+Cor do dia -> Soma dos quadrados de todos os campos % 11 = 11 cores via switch
+
+Dificuldades:
+Entender a lógica matemática a ser utilizada se baseando em todos os casos específicos;
+Como usar a função abs corretamente;
+Uso do switch a depender do valor final da soma dos quadrados. 

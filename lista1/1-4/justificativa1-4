@@ -1,0 +1,14 @@
+Questão 4 — Caminhada estratégica (lista1-4.c)
+Entrada: coordenadas (X, Y) e quadrante a evitar C.
+O que faz: Dado o ponto de partida, determina o quadrante diagonal (Q1 <-> Q3, Q2 <-> Q4) e calcula a rota até (±1, ±1) no destino:
+
+X primeiro → atravessa um quadrante adjacente específico
+Y primeiro → atravessa o outro quadrante adjacente
+Se C bate com o quadrante que x-primeiro passaria -> imprime "K passos em y e K' passos em x"
+Se C bate com o de y-primeiro -> imprime "K passos em x e K' passos em y"
+Se C não for nenhum dos dois adjacentes, ou ponto sobre eixo -> "caminhada invalida"
+
+Dificuldades:
+Calcular a melhor estratégia para seguir nos quadrantes;
+Se basear em valores +1 e -1 para definir os respectivos quadrantes(Como no plano Cartesiano);
+Encontrar os resultados de outputs corretos.

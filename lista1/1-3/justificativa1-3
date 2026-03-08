@@ -1,0 +1,12 @@
+Questão 3 — Rebeka e a volta para casa (lista1-3.c)
+Entrada: Total T e três porcentagens(X,Y,Z); Podendo ser letras ou idades.
+O que faz: Rebeka tenta dividir T em inteiros entre três homens, adicionando até 3 reais:
+
+Sem adicionar nada -> Pega o troco
+Adicionando 1, 2 ou 3 -> Só aceita se sobrar mais do que investiu;
+Se investiu 2 -> Lê 3 letras e imprime a soma (x = 1, ..., z = 26);
+Se investiu 3 -> Lê 3 idades e, se alguma for divisível por 3, imprime soma de floor(idade/3);
+Verifica se 3 + lucro >= 7 para saber se ela volta pra casa de busão.
+
+Dificuldades: 
+Verificação dos valores para o resultado final.

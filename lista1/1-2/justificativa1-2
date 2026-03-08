@@ -1,0 +1,11 @@
+Questão 2 — Xupenio Bordões (lista1-2.c)
+
+Entrada: N, A e B (inteiros)
+O que faz: Soma dos múltiplos de k (resultado = total) no intervalo [1, n].
+
+Soma total de todos os números naturais de 1 a N: N * (N + 1) /2
+Inclusão-exclusão: soma(N) - somaM(A) - somaM(B) + somaM(A * B)
+Se o resultado for par -> "Lá ele!!!", se ímpar -> "Opa xupenio AULAS..."
+
+Dificuldades:
+Entender a lógica matemática a ser utilizada e como utilizar o long long.
