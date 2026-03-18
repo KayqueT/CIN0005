@@ -1,0 +1,14 @@
+O código recebe um número X de Xupenio e N canais. Cada canal gera uma sequência semelhante com Fibonacci(Cada termo é a soma dos dois anteriores). O objetivo central do código é encontrar em qual canal e em qual minuto é gerado o valor mais próximo de X.
+
+Lê X e N
+|
+|__ Para cada canal:
+   |_ Lê f1, f2
+   |_ Avalia minutos 1 e 2
+   |_ Gera sequência até ultrapassar X
+   |_ Guarda o minuto mais próximo de X
+   |_ Compara com o melhor
+|
+|__ Soma do melhor valor 
+   |__Verifica VIP 
+      |__Imprime resultado

@@ -1,0 +1,4 @@
+O código armazena o caminho como segmentos horizontais guardando em qual linha está e sua coluna inicial e final.
+Percorre todas as linhas de 0 até a última. Para cada linha:
+- Se existe um segmento para ela, imprime *espaços* até *seg_min* e *pontos* de *seg_min* até *seg_max*
+- Se não existe segmento (linha vazia entre descidas), imprime só o \n.

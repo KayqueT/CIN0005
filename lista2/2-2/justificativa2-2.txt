@@ -1,0 +1,10 @@
+O código recebe três inteiros e procura no intervalo [n, k) que possuam p fatores ímpares e sem repetição na fatoração.
+
+Lê n, k, p
+|
+|__ Para cada primo ímpar i < k
+   |_ Incrementa contagem em todos os múltiplos de i
+   |_ Guarda repetição em todos os múltiplos de i²
+|
+|__ Busca em [n, k):
+   |__Guarda o primeiro e conta os demais -> imprime
