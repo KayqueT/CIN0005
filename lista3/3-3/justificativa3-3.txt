@@ -1,0 +1,2 @@
+O código lê uma frase e encontra todos os pares de palavras que são anagramas entre si (mesmas letras, ordem diferente).
+Nenhuma palavra é copiada para outro array — tudo opera com índice + tamanho direto na string original.
