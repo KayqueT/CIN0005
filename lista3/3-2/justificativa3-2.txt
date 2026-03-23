@@ -1,1 +1,0 @@
-O código simula uma fila de clientes em uma loja onde Coragem começa a atender às 07:00, onde cada cliente leva 3 minutos. O objetivo é descobrir qual cliente fez a cesta básica atingir 50 latas vendidas.

@@ -1,8 +1,0 @@
-O código lê diversos casos com 3 inputs distintos, sendo eles a quantidade de testes a ser feita, o tamanho da sequência de números e os números da sequência. O programa encontra a maior sequência decrescente dentro de um array em seus testes.
-
-Lê Testes
-|___ Para cada caso:
-    |___ Lê array
-    |___ Varre procurando trechos decrescentes
-    |___ Guarda o maior trecho encontrado
-    |___ Imprime tamanho + elementos (ou "0" se nenhum)
