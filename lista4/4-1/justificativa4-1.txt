@@ -1,0 +1,3 @@
+A Fuga de Rebeka:
+
+O código lê um grid de caracteres e usa BFS (busca em largura) para encontrar o menor caminho entre a origem 'o' e o destino 'd', desviando de paredes '#'. A fila armazena linha, coluna e distância acumulada de cada célula visitada; quando o destino é alcançado, imprime a distância percorrida, caso contrário informa que não há caminho possível.

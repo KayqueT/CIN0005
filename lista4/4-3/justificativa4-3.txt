@@ -1,0 +1,3 @@
+Investimentos N3:
+
+O código simula um robô em uma matriz 4×4 que recebe 20 movimentos ('c' = cima, 'b' = baixo, 'e' = esquerda, 'd' = direita), incrementando a célula atual a cada passo — inclusive quando bate na parede e permanece no lugar. Ao final, percorre a matriz para encontrar a célula mais visitada e imprime sua coordenada.
