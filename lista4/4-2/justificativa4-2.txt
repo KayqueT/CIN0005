@@ -1,3 +1,0 @@
-Marquinhos e a goteira:
-
-O código simula o escoamento de água em um grid: usando BFS, cada gota marcada com 'o' tenta cair para a célula de baixo; se houver parede '#' embaixo, ela se espalha horizontalmente para esquerda e direita até encontrar uma borda livre para cair novamente, marcando 'o' em cada célula percorrida. Ao final, imprime o grid com o caminho percorrido pela água.

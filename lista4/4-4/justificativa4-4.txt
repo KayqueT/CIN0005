@@ -1,3 +1,0 @@
-Enfeite da Praça:
-
-O código lê um grid e, para cada célula com 'P', marca as células adjacentes ortogonais (cima, baixo, esquerda, direita) com '+' e as diagonais com 'x', sendo que '+' prevalece sobre 'x' caso haja sobreposição. Ao final, imprime o grid resultante com as influências de cada 'P' aplicadas.
