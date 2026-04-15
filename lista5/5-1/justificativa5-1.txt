@@ -1,0 +1,6 @@
+O Vício de Krebs:
+
+Lê um inteiro n e n linhas, guardando tudo dinamicamente.
+Mescla as strings por colunas e imprime a string resultante.
+Repetidamente substitui pares adjacentes iguais por seu próximo caractere (z -> a) removendo o segundo, até não haver mais mudanças.
+Imprime a string final e libera a memória.
