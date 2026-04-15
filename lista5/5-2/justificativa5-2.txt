@@ -1,5 +1,0 @@
-Sistema de Notas da Escola CInal do Saber:
-
-Lê notas iniciais e novas notas, armazenando dinamicamente com malloc e realloc.
-Calcula média, maior e menor (com índice do aluno), quantidade acima da média, mediana e moda (única).
-Imprime relatório inicial e atualizado com números formatados em 2 casas decimais.

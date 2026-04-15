@@ -1,6 +1,0 @@
-Mapa Vazio:
-
-Lê inteiros até EOF, armazena dinamicamente e imprimi primeiro os ímpares e depois os pares, cada um em nova linha, armazenando dinamicamente.
-Imprime "Mais um bom dia de trabalho!".
-Imprime os números ímpares na ordem lida, depois os pares, cada um em nova linha.
-Imprime a frase final e libera a memória.
