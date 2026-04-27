@@ -1,0 +1,3 @@
+Rede de Sensores com Pipeline de Processamento:
+
+Lê uma matriz de sensores e processa comandos em loop. Cada comando monta um vetor de ponteiros para função (o pipeline) alocado dinamicamente e passa para a função modificar, que é a única que altera a matriz.

@@ -1,0 +1,4 @@
+Matriz dinâmica:
+
+Matriz com ponteiro para função.
+Lê uma matriz de inteiros alocada dinamicamente e aplica uma operação em todos os elementos via ponteiro para função. O usuário escolhe entre dobro, quadrado ou absoluto.

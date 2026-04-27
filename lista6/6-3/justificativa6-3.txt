@@ -1,0 +1,3 @@
+Sistema de Combate em MMORPG: Simulando AoE:
+
+Simula dois tipos de ataque numa matriz de HP. Calcula duas camadas de área de efeito ao redor do centro e aplica dano via ponteiro para função selecionado dinamicamente. A Explosão Arcana aplica dano fixo (50/25) uma vez; a Nuvem Venenosa roda até 3 turnos com dano baseado em vizinhos vivos, parando cedo se todos zerarem. Cada turno gera uma cópia da matriz sem modificar a original.
