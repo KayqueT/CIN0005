@@ -1,0 +1,11 @@
+Operação: Lança de Netuno
+
+OBJETIVO:
+Gerenciar robôs de combate (Mechas) e executar seus subsistemas de forma ordenada.
+
+COMO FUNCIONA:
+* Aloca dinamicamente uma fila de Mechas usando estruturas com vetores flexíveis para os subsistemas.
+* Associa sub-rotinas de comportamento (Defesa, Utilidade ou Ataque) usando ponteiros de função ('void (*subrotina)...').
+* Ordena o esquadrão pelo ID de cada Mecha através do método 'qsort'.
+* Simula e executa as sub-rotinas respeitando rigidamente uma fila de prioridade: Defesa primeiro, depois Utilidade e por fim Ataque.
+* Atualiza e desconta dinamicamente os níveis de energia do Mecha durante a execução dos ataques.

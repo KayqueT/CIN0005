@@ -1,0 +1,3 @@
+Torneio Pokémon
+
+Gerencia treinadores e seus Pokémons com alocação dinâmica (realloc a cada inserção). As operações (cadastrar, listar, remover, atualizar) ficam numa struct Operacoes com ponteiros para função, e a main só chama através dela. A listagem ordena treinadores por nível e Pokémons por força, ambos com desempate por ordem de cadastro.

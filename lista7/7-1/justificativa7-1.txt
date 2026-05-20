@@ -1,0 +1,15 @@
+A coleção
+
+OBJETIVO:
+Cadastrar uma coleção de jogos e realizar consultas filtradas.
+
+COMO FUNCIONA:
+* Armazena até 100 jogos em um vetor global usando a estrutura 'Jogo'.
+* Lê os dados dos jogos e exibe reações cômicas baseadas na nota (ex: nota > 7 ganha "AWESOME!").
+* Processa comandos em loop para buscar e listar jogos por critérios específicos:
+  - Ano de lançamento ('printAno').
+  - Primeira letra do título ('printLetra').
+  - Estúdio desenvolvedor ('printStudio').
+  - Console/Plataforma ('printConsole').
+  - Coleção completa com notas ('printColecao').
+* Exibe mensagens personalizadas citando o "Sr Sr Wilson" se nenhum jogo for encontrado.
