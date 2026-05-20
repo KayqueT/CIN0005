@@ -1,0 +1,15 @@
+Atualização de Estoque com Arquivos
+
+OBJETIVO:
+Processar vendas/compras e gerar relatórios de consistência de estoque.
+
+COMO FUNCIONA:
+* Lê o banco de dados inicial de 'produtos.txt'.
+* Lê a lista de transações de 'movimentos.txt' (E = Entrada, S = Saída).
+* Processa cada movimento atualizando as quantidades em memória:
+  - Entradas sempre somam.
+  - Saídas subtraem (se houver estoque suficiente).
+  - Trata erros: "PRODUTO_INEXISTENTE" ou "ESTOQUE_INSUFICIENTE".
+* Salva o inventário renovado em 'estoque_atualizado.txt'.
+* Gera um 'relatorio.txt' com: balanço de movimentos, lista de produtos com 
+  estoque baixo (<= 5 unidades) e o log de inconsistências encontradas.

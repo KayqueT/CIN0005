@@ -1,0 +1,13 @@
+PROGRAMA: Simulador de Registro de Sensor IoT
+
+OBJETIVO: 
+Extrair informações específicas de um único byte recebido.
+
+COMO FUNCIONA:
+* Usa uma 'union' combinada com campos de bits ('bit-fields').
+* Recebe um número inteiro da entrada padrão e o joga no byte bruto ('raw').
+* O C divide esse byte de 8 bits automaticamente em três partes:
+  - Erro: 1 bit
+  - Modo: 3 bits
+  - Leitura: 4 bits
+* Imprime os resultados decodificados na tela em loop.

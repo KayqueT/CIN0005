@@ -1,0 +1,12 @@
+Processamento de Arquivos CSV
+
+OBJETIVO:
+Processar múltiplos arquivos CSV e embutir resultados neles.
+
+COMO FUNCIONA:
+* Abre em sequência arquivos chamados "iris1.csv", "iris2.csv", etc.
+* Pula o cabeçalho e lê os dados (dimensões de sépalas/pétalas e espécie).
+* Usa alocação dinâmica para guardar os dados e contar a frequência das espécies.
+* Calcula a Média das dimensões e a Moda (espécie mais frequente).
+* Exibe o conteúdo original do arquivo no terminal.
+* Reabre o mesmo arquivo em modo de adição ('append') e grava as estatísticas calculadas no final dele, sob a tag '#RESULTADOS'.
