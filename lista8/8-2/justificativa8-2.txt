@@ -1,0 +1,9 @@
+Processamento de Pacotes de Telemetria em Sistemas Embarcados
+
+Objetivo:
+Decodificar pacotes de dados de 32 bits (recebidos em hexadecimal), extraindo e exibindo informações específicas de sensores.
+
+Como funciona:
+* Estrutura (Union/Bit-fields): Usa uma união para mapear um único inteiro de 32 bits diretamente em subvariáveis específicas (ID do sensor, status, alerta de bateria, temperatura e paridade).
+* Armazenamento Dinâmico: Lê os números em hexadecimal e os armazena em um vetor dinâmico que dobra de tamanho (realloc) automaticamente conforme a necessidade.
+* Saída: Percorre todos os dados salvos e imprime na tela o valor hexadecimal bruto junto com cada campo já isolado e decodificado.
