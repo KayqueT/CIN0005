@@ -1,0 +1,10 @@
+PROGRAMA: Attack de Stack
+
+OBJETIVO: 
+Simular um jogo de pilha focado em fusão e eliminação de caracteres (cores).
+
+COMO FUNCIONA:
+* Cada caractere digitado vai para o topo da pilha.
+* Duas cores primárias diferentes no topo viram uma secundária (r+g=y, r+b=m, g+b=c).
+* Três elementos idênticos seguidos no topo são deletados.
+* Mostra a pilha atualizada (do topo para a base) a cada jogada.

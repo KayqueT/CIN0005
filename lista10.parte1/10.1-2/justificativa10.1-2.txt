@@ -1,0 +1,10 @@
+PROGRAMA: Novo Sistema de Matrículas do SIGAA
+
+OBJETIVO:
+Duas filas encadeadas (req e conf). 
+
+COMO FUNCIONA:
+* START inicia a disciplina, ADD enfileira alunos, PROC os processa em ordem FIFO com um relógio: se o relógio passou do timeout -> descarta; 
+* Se há vaga -> confirma; 
+* Senão -> lotado. 
+* FIM imprime a lista oficial.

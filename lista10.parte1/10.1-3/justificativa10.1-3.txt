@@ -1,0 +1,8 @@
+PROGRAMA: Gerenciador de Fila de Tarefas
+
+OBJETIVO:
+Fila encadeada simples com head/tail. 
+
+COMO FUNCIONA:
+* I insere no fim, R remove do início imprimindo os dados, L lista tudo, F encerra. 
+* Operações O(1) graças ao ponteiro tail.
